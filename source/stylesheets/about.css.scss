@@ -1,0 +1,99 @@
+@charset "utf-8";
+@import "normalize";
+
+body {
+  background: #fff;
+}
+
+p {
+  line-height: 2;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+section h2 {
+  text-align: center;
+  margin: 0 0 5px;
+}
+
+section p {
+  text-align: left;
+}
+
+.eventhost img {
+  margin-top: 1rem;
+  border-radius: 1px;
+}
+
+.tobitate img {
+  margin-bottom: 2rem;
+}
+
+.tobitate img:hover{
+  opacity: .5;
+}
+
+.item a {
+  text-decoration: none;
+  color: navy;
+  font-weight: bold;
+  border-bottom: 1px solid navy;
+}
+
+
+@media (min-width: 570px) {
+  body {
+    background: #fff;
+  }
+
+}
+
+/* large */
+
+@media (min-width: 820px) {
+  body {
+    background: #fff;
+  }
+
+  section {
+    margin: 0 13rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  body {
+    background: #fff;
+  }
+
+  section {
+    margin: 0 12rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    background: #fff;
+  }
+
+  section {
+    margin: 0 13rem;
+  }
+}
+
+@media (min-width: 1700px) {
+  body {
+    background: #fff;
+  }
+
+  section {
+    margin: 0 24rem;
+  }
+}

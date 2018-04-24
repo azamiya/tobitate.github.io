@@ -1,0 +1,14 @@
+---
+title: TobitaTALK Stories
+---
+
+= stylesheet_link_tag './talks'
+
+.talks
+  h2 Talks
+.stories
+  - data.test.images.each do |i|
+    .stories__images-description
+      iframe allow=("autoplay; encrypted-media") allowfullscreen="" frameborder="0" height="250" src="#{i.id}" width="370"
+      p.title = i.title
+      p.name = i.description

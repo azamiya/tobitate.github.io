@@ -1,0 +1,15 @@
+dog: "Golden Retriever"
+
+images:
+  - id: "https://www.youtube.com/embed/F0-7tDZFuX0"
+    title: "世界に通じる「漆の家族」の物語"
+    description: "桐本滉平"
+  - id: "https://www.youtube.com/embed/gXBlZM0L__E"
+    title: "アフリカ貧困支援でたどり着いた「自分らしさ」"
+    description: "神田美紀"
+  - id: "https://www.youtube.com/embed/_eNt0eEfPvI"
+    title: "カナダで見つけた人工知能と私たちの未来"
+    description: "佐久間洋司"
+  - id: "https://www.youtube.com/embed/3q3jD1XdXag"
+    title: "「心」で起こしたラオスでの奇跡"
+    description: "高木一樹"

@@ -1,0 +1,42 @@
+---
+title: TobitaTALK Home
+---
+= stylesheet_link_tag './index'
+
+/! Slideshow container
+.slideshow-container
+
+  /! Images with number and caption text
+  .photo-show.fade
+    img.main src="images/index/presentor1.jpg"
+    img.absolute src="images/index/presentblack.png"
+
+
+section.digest
+  h2 Digest
+  .container
+    .iframe-wrapper
+      iframe allow=("autoplay; encrypted-media") allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/L7wffOFW-gY" width="560"
+
+.movies
+  h2 Talks
+.stories
+  - data.test.images.each do |i|
+    .stories__images-description
+      iframe allow=("autoplay; encrypted-media") allowfullscreen="" frameborder="0" height="250" src="#{i.id}" width="370"
+      p.title = i.title
+      p.name = i.description
+
+section.theme
+  h2 Theme
+  img src = "images/index/presentyourfuture1.png"
+  br
+  .container
+    .item
+      p present &#61; 「現在、いま」
+      p present &#61; 「贈る、差し出す」
+      p present &#61; 「居合わせる、立ち会う」
+      br
+      br
+      p いまを生きる若者と、彼らが贈る、未来の世界のイメージ。
+      p そこに立ち会う全員が、共に未来をつくる仲間となる。
